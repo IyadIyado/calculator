@@ -1,0 +1,63 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	/* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+.calculator {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding-bottom: 3%;
+	/* flex-direction: column; */
+}
+
+.display {
+	text-align: right;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	/* gap: 5vh; */
+}
+
+.operator {
+	border-radius: 10%;
+	background-color: rgba(0, 0, 0, 0.02);
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	/* gap: 5vh; */
+	/* flex-direction: row; */
+}
+
+h1 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 2.5rem;
+	margin: 1rem;
+	font-size: x-large;
+	text-align: center;
+}
+
+h1:hover {
+	color: wheat;
+	background-color: white;
+}
+
+#empty:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
