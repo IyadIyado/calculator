@@ -150,7 +150,7 @@ let operate = (operator, number) => {
 primary.innerHTML = payload;
 // while (calculatorActive) {}
 
-setInterval(function () {
-	secondary.innerHTML = `${currentSecondary}`;
-	primary.innerHTML = `${currentPrimary}`;
-}, 100);
+// setInterval(function () {
+// 	secondary.innerHTML = `${currentSecondary}`;
+// 	primary.innerHTML = `${currentPrimary}`;
+// }, 100);
